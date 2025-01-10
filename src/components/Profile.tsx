@@ -16,20 +16,14 @@ import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/maximebaudoin",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://www.linkedin.com/in/maximebaudoin",
         icon: <FaLinkedin className="size-4" />
-    },
-    {
-        name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
-        icon: <FaXTwitter className="size-4" />
     }
-    // TODO: Add more socials here
 ]
 
 export const Profile = () => {
@@ -45,14 +39,14 @@ export const Profile = () => {
                                 width={150}
                                 height={150}
                                 quality={100}
-                                src="/avatar.svg"
+                                src="/avatar.png"
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Maxime BAUDOIN</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
-                                    Solopreneur Developer
+                                    Développeur
                                 </p>
                             </div>
                         </div>
@@ -60,7 +54,7 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a software engineer with a passion for building products that help people live better lives.
+                        Développeur passionné spécialisé en mobile, également freelance pour des projets créatifs et innovants. 🚀
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}
@@ -68,9 +62,9 @@ export const Profile = () => {
                         <Link
                             href="/resume.pdf"
                             target="_blank"
-                            className="font-semibold uppercase"
+                            className="font-semibold"
                         >
-                            CONTACT ME
+                            Contactez-moi
                         </Link>
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">

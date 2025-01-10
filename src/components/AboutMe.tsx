@@ -15,13 +15,13 @@ export const AboutMe = () => {
 
     <Card className="mb-6">
         <CardHeader className="flex flex-row justify-between items-baseline">
-            <CardTitle>About Me</CardTitle>
+            <CardTitle>À propos</CardTitle>
             {isDesktopOrLaptop && <ThemeSwitcher />}
         </CardHeader>
         <CardContent>
             <p className="text-muted-foreground">
                 {/* Write 1-2 sentences about yourself */}
-                I am a software engineer with a passion for building scalable and efficient web applications.
+                Développeur passionné en dernière année d’alternance, je me spécialise dans le développement mobile, en créant des applications intuitives et performantes. En parallèle, j’exerce en freelance, ce qui me permet de travailler sur des projets variés et stimulants. Toujours en quête d’innovation, je combine créativité et technique pour relever de nouveaux défis. 🚀
             </p>
         </CardContent>
     </Card>

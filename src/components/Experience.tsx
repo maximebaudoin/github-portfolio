@@ -8,9 +8,9 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
+        role: "Préparateur de commande",
+        company: "Grands Vins de Gironde",
+        logo: "/grandsvinsdegironde.jpg",
         duration: "2020 - Present",
         description:
             "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
@@ -18,30 +18,22 @@ const jobs = [
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
-        description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
+        role: "Animateur radio et site web",
+        company: "Radios FM et Web Radio",
+        logo: "/radio.png",
+        duration: "Depuis 2014",
+        description: "",
         link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+        images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
-        description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
+        role: "Stage de 3ème",
+        company: "Rocher de Palmer",
+        logo: "/rocherdepalmer.png",
+        duration: "2015 (une semaine)",
+        description: "Techniques son et lumière",
         link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+        images: []
     },
 ]
 
